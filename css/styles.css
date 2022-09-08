@@ -84,6 +84,7 @@ h1, h2, h3{
 
 .bg2:hover{
   background-color: #F67280;
+  transform: scale(1.05);
 }
 
 .bg2{
