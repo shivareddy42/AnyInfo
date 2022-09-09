@@ -1,3 +1,25 @@
+.background-image{
+
+  background-repeat: no-repeat;
+  position: relative;
+  isolation: isolate;
+}
+
+.background-image::after{
+  content: '';
+  position:absolute;
+  z-index: -1;
+  inset:0;
+  background: pink;
+  opacity:0.3;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('../images/backgroundrestaurant.jpg');
+}
+
+
+
+
 body{
   text-align: center;
   /* background-color: #ff4c68; */
@@ -71,17 +93,26 @@ body{
     padding: 3% 3% 3% 3%;
 }
 
+.bg2{
+  background-color: #4a1127;
+  color:#fff;
+}
+
 .bg2:hover{
-  background-color: #F67280;
+  background-color: #6b4553;
   color: #fff;
   transform: scale(1.05);
+}
+
+.bg3{
+  color:#fff;
 }
 
 /* footer */
 
 
 #footer{
-  padding: 3% 10% 3% 10%;
+  padding: 3% 5% 3% 5%;
   background-color: #e4f9f5;
 }
 
