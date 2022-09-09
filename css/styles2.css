@@ -11,7 +11,7 @@
   z-index: -1;
   inset:0;
   background: pink;
-  opacity:0.3;
+  opacity:0.25;
   background-size: cover;
   background-position: center center;
   background-image: url('../images/backgroundrestaurant.jpg');
@@ -106,6 +106,10 @@ body{
 
 .bg3{
   color:#fff;
+}
+
+.fa-star{
+  color: #e1ad21;
 }
 
 /* footer */
