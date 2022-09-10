@@ -96,6 +96,7 @@ body{
   .bg2:hover{
     background-color: #F67280;
     color: #fff;
+     transform: scale(1.05);
   }
   .bg3{
     color:#fff;
