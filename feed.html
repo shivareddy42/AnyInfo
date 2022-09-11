@@ -16,7 +16,10 @@
 				type:"post",
 				data:$("#myForm").serializeArray(),
 				success: function(){
-					alert("Form Data Submitted :)")
+					if (window.confirm('Take me back to Home!')) 
+{
+  window.location.href='first.html';
+};
 				},
 				error: function(){
 					alert("There was an error :(")
